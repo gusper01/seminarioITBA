@@ -1,6 +1,6 @@
 # Pipeline de ML
 
-_Se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+Se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
