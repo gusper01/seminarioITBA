@@ -1,7 +1,6 @@
 # Pipeline de ML
 
-_Acá va un párrafo que describa lo que es el proyecto_
-
+_Se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -32,7 +31,6 @@ _Y repite_
 ```
 hasta finalizar
 ```
-
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
