@@ -10,18 +10,15 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+### Ingesta de Datos 📋
 
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
+Se toman los datasets de la compentencia de Kaggle _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
 Da un ejemplo
 ```
 
-### Instalación 🔧
+### Análisis Exploratorio (EDA) 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
@@ -38,11 +35,11 @@ hasta finalizar
 ```
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-## Ejecutando las pruebas ⚙️
+### Limpieza de Datos ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
 
-### Analice las pruebas end-to-end 🔩
+### Label Enconding/Baseline 🔩
 
 _Explica que verifican estas pruebas y por qué_
 
@@ -50,15 +47,16 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+### Feature Engineering  ⌨️
 
 _Explica que verifican estas pruebas y por qué_
 
 ```
 Da un ejemplo
 ```
+### Creación de Features 🔩
 
-## Despliegue 📦
+### Creación del Modelo 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
 
