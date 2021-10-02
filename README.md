@@ -20,7 +20,7 @@ Se realiza visualizaciones de los datasetas de entrenamiento y test
 Se identifican features y se realizan actividades de limpieza e imputación de datos
 ### Label Enconding/Baseline 🔩
 Se realizan encoding de features a los efectos de poder utilizar algoritmo XGBoost
-![image](https://user-images.githubusercontent.com/2281529/135733239-c977e462-1e16-4b68-bd62-0960b711274f.png)
+
 
 Se genera una función de Baseline para comparar feature importance,
 ### Feature Engineering  ⌨️
