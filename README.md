@@ -7,25 +7,44 @@ Ask a home buyer to describe their dream house, and they probably won't begin wi
 
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 ## Etapas del PipeLine 🚀
+Se identifican las siguientes etapas 
 
-_Clonado del Repositorio
-git clone https://github.com/gusper01/seminarioITBA.git
-_
+## Activades ML
+Para la reproducción de esta parte se debe acceder al colab https://colab.research.google.com/drive/1sJVKKEXE55bxLPI9PGfZRxiiKbCSVkqb?usp=sharing
 
 ### Ingesta de Datos 📋
+Se toman los datasets de la competencia de Kaggle  
+### Análisis Exploratorio (EDA) 🔧
+Se realiza visualizaciones de los datasetas de entrenamiento y test
+### Limpieza de Datos ⚙️
+Se identifican features y se realizan actividades de limpieza e imputación de datos
+### Label Enconding/Baseline 🔩
+Se realizan encoding de features a los efectos de poder utilizar algoritmo XGBoost
+Se genera una función de Baseline para comparar feature importance,
+### Feature Engineering  ⌨️
+Se crean nuevas posibles Features y se comparan con baseline
+### Creación del Modelo 📦
+Se genera modelo y predicciones 
 
-Se toman los datasets de la compentencia de Kaggle _Que cosas necesitas para instalar el software y como instalarlas_
+
+Para la reproducción de esta parte se debe acceder al colab https://colab.research.google.com/drive/1-h3CC06yUTPSjbpCFUsH72Zorow13YOs?usp=sharing
+### Creación de Features 🔩
+
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Explica que verifican estas pruebas y por qué_
 
 ```
 Da un ejemplo
 ```
 
-### Análisis Exploratorio (EDA) 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
 _Dí cómo será ese paso_
 
+
+_Que cosas necesitas para instalar el software y como instalarlas_
+
+```
+Da un ejemplo
+```
 ```
 Da un ejemplo
 ```
@@ -37,28 +56,12 @@ hasta finalizar
 ```
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-### Limpieza de Datos ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Label Enconding/Baseline 🔩
 
 _Explica que verifican estas pruebas y por qué_
 
 ```
 Da un ejemplo
 ```
-
-### Feature Engineering  ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-### Creación de Features 🔩
-
-### Creación del Modelo 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
 
@@ -82,12 +85,9 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
-## Autores ✒️
+## Autor ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Gustavo Pereyra** - [gusper01](https://github.com/gusper01)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
