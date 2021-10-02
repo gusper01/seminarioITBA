@@ -8,7 +8,9 @@ Ask a home buyer to describe their dream house, and they probably won't begin wi
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 ## Etapas del PipeLine 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Clonado del Repositorio
+git clone https://github.com/gusper01/seminarioITBA.git
+_
 
 ### Ingesta de Datos 📋
 
