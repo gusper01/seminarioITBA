@@ -27,7 +27,7 @@ Se genera una función de Baseline para comparar feature importance,
 Se crean nuevas posibles Features y se comparan con baseline
 ### Creación del Modelo 📦
 Se genera modelo y predicciones 
-
+Se utilizará solo el algoritmo XGBoost por limitaciones de tiempo. Se generá el archivo con la predicción para hacer el submit a Kaggle y un archivo de de salida para realizar persistencia "datatotal01102021.csv" y continuar con el PIPELINE de ML (en otro COLAB)
 
 Para la reproducción de esta parte se debe acceder al colab https://colab.research.google.com/drive/1-h3CC06yUTPSjbpCFUsH72Zorow13YOs?usp=sharing
 ### Creación de Features 🔩
