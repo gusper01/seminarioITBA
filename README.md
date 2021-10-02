@@ -10,7 +10,7 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 Se identifican las siguientes etapas 
 
 ## Activades ML
-Para la reproducción de esta parte se debe acceder al colab https://colab.research.google.com/drive/1sJVKKEXE55bxLPI9PGfZRxiiKbCSVkqb?usp=sharing
+Para la reproducción de esta parte se debe acceder al colab https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_EDA.ipynb
 
 ### Ingesta de Datos 📋
 Se toman los datasets de la competencia de Kaggle  
@@ -20,6 +20,8 @@ Se realiza visualizaciones de los datasetas de entrenamiento y test
 Se identifican features y se realizan actividades de limpieza e imputación de datos
 ### Label Enconding/Baseline 🔩
 Se realizan encoding de features a los efectos de poder utilizar algoritmo XGBoost
+![image](https://user-images.githubusercontent.com/2281529/135733239-c977e462-1e16-4b68-bd62-0960b711274f.png)
+
 Se genera una función de Baseline para comparar feature importance,
 ### Feature Engineering  ⌨️
 Se crean nuevas posibles Features y se comparan con baseline
