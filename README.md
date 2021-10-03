@@ -54,7 +54,6 @@ e Y son independientes, entonces conocer X no da información sobre Y y vicevers
 En el otro extremo, si X e Y son idénticas entonces toda información proporcionada por X es compartida por Y: saber X determina
 el valor de Y y viceversa. Por ello, la información mutua media es igual a la información contenida en Y (o X) por sí sola, 
 también llamada la entropía de Y (o X: claramente si X e Y son idénticas tienen idéntica entropía 
-https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua
 ```
 ### Hyperparameter Tuning  🛠️
 ```
@@ -87,13 +86,14 @@ Se exporta esta salida a un Pandas Dataframe
 ### Recuperación de Datos 🔩
 ```
 Se visualiza extracción de datos de archivo Parquet
-En esta etapa en un proyecto productivo se deberia implementar un dashboarb. En el entorno de COLAB si bien se instalo y 
-configuro dash y jupyter-dash no se pudo lograr activar el servidor de dashboards 
+En esta etapa en un proyecto productivo se deberia implementar un dashboarb. En el entorno de COLAB si bien se instaló y 
+configuró dash y jupyter-dash no se pudo lograr activar el servidor de dashboards. 
 ```
 ## Referencias 📌
 * [PySpark](http://spark.apache.org/docs/latest/api/python/)
 * [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) Competencia House Prices - Advanced Regression Techniques
 * [Google_Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
+* [Mutual Information](https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua)
 * [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 * [Dash_Plotly](https://dash.plotly.com/layout) Dashboard 
 
