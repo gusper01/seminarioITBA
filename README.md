@@ -1,6 +1,8 @@
 # Pipeline de ML
-## 
-Se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+##
+En base a los contenidos del Seminario de Tópicos Avanzados en Datos Complejos 2021 de la Especialización en Ciencia de Datos del ITBA.
+Se presenta un proyecto de PIPELINE de ML donde se refleje el ciclo de vida de un proyecto de Machine Learning en un entorno productivo
+A los efectos del amrado del PIPELINE de ML, se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
 Competition Description
 ![housesbanner](https://user-images.githubusercontent.com/2281529/134782394-25da2570-550b-4b7a-85fe-219630455631.png)
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
@@ -88,17 +90,11 @@ Se visualiza extracción de datos de archivo Parquet
 En esta etapa en un proyecto productivo se deberia implementar un dashboarb. En el entorno de COLAB si bien se instalo y 
 configuro dash y jupyter-dash no se pudo lograr activar el servidor de dashboards 
 ```
-
-## Construido con 🛠️
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
 ## Referencias 📌
 * [PySpark](http://spark.apache.org/docs/latest/api/python/)
 * [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) Competencia House Prices - Advanced Regression Techniques
 * [Google_Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
+* [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 * [Dash_Plotly](https://dash.plotly.com/layout) Dashboard 
 
 ## Autor ✒️
