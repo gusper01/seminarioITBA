@@ -52,8 +52,9 @@ e Y son independientes, entonces conocer X no da información sobre Y y vicevers
 En el otro extremo, si X e Y son idénticas entonces toda información proporcionada por X es compartida por Y: saber X determina
 el valor de Y y viceversa. Por ello, la información mutua media es igual a la información contenida en Y (o X) por sí sola, 
 también llamada la entropía de Y (o X: claramente si X e Y son idénticas tienen idéntica entropía 
-[Mutual Information](https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua)
 ```
+[Mutual Information](https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua)
+
 ### Hyperparameter Tuning  🛠️
 ```
 A los fines del TP esta actividad no se realizó de forma práctica pero debería estar en un ciclo de pipeline productivo
@@ -69,9 +70,10 @@ veces es conveniente realizarlo utilizando servicios en la nube.
 Se genera modelo y predicciones 
 Se utilizará solo el algoritmo XGBoost por limitaciones de tiempo. Se generá el archivo con la predicción para hacer 
 el submit a Kaggle y un archivo de de salida para realizar persistencia 
-[datatotal01102021v1.csv](https://github.com/gusper01/seminarioITBA/blob/gh-pages/data/datatotal01102021v1.csv) y continuar con el PIPELINE
-de ML (en otro COLAB)
 ```
+[datatotal01102021v1.csv](https://github.com/gusper01/seminarioITBA/blob/gh-pages/data/datatotal01102021v1.csv)
+y continuar con el PIPELINE de ML (en otro COLAB)
+
 ### Persistencia 🔩
 ```
 Se configura SPARK en Colab
@@ -113,12 +115,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
 
 
 
