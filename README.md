@@ -52,9 +52,8 @@ e Y son independientes, entonces conocer X no da información sobre Y y vicevers
 En el otro extremo, si X e Y son idénticas entonces toda información proporcionada por X es compartida por Y: saber X determina
 el valor de Y y viceversa. Por ello, la información mutua media es igual a la información contenida en Y (o X) por sí sola, 
 también llamada la entropía de Y (o X: claramente si X e Y son idénticas tienen idéntica entropía 
+https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua
 ```
-[Mutual Information](https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua)
-
 ### Hyperparameter Tuning  🛠️
 ```
 A los fines del TP esta actividad no se realizó de forma práctica pero debería estar en un ciclo de pipeline productivo
@@ -70,10 +69,9 @@ veces es conveniente realizarlo utilizando servicios en la nube.
 Se genera modelo y predicciones 
 Se utilizará solo el algoritmo XGBoost por limitaciones de tiempo. Se generá el archivo con la predicción para hacer 
 el submit a Kaggle y un archivo de de salida para realizar persistencia 
-```
-[datatotal01102021v1.csv](https://github.com/gusper01/seminarioITBA/blob/gh-pages/data/datatotal01102021v1.csv)
+"datatotal01102021v1.csv" https://github.com/gusper01/seminarioITBA/blob/gh-pages/data/datatotal01102021v1.csv
 y continuar con el PIPELINE de ML (en otro COLAB)
-
+```
 ### Persistencia 🔩
 ```
 Se configura SPARK en Colab
@@ -86,7 +84,9 @@ Se exporta esta salida a un Pandas Dataframe
 ```
 #### Recuperación de Datos 🔩
 ```
-Se visualiza extraccion de datos de archivo Parquet
+Se visualiza extracción de datos de archivo Parquet
+En esta etapa en un proyecto productivo se deberia implementar un dashboarb. En el entorno de COLAB si bien se instalo y 
+configuro dash y jupyter-dash no se pudo lograr activar el servidor de dashboards 
 ```
 
 ## Construido con 🛠️
@@ -95,29 +95,14 @@ Se visualiza extraccion de datos de archivo Parquet
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+## Referencias 📌
+[PySpark](http://spark.apache.org/docs/latest/api/python/)
+[Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) Competencia House Prices - Advanced Regression Techniques
+[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
+[Dash Plotly](https://dash.plotly.com/layout) Dashboard 
 
 ## Autor ✒️
-
 * **Gustavo Pereyra** - [gusper01](https://github.com/gusper01)😊
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
