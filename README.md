@@ -1,8 +1,8 @@
 # Pipeline de ML
 ##
 En base a los contenidos del Seminario de Tópicos Avanzados en Datos Complejos 2021 de la Especialización en Ciencia de Datos del ITBA.
-Se presenta un proyecto de PIPELINE de ML donde se refleje el ciclo de vida de un proyecto de Machine Learning en un entorno productivo
-A los efectos del amrado del PIPELINE de ML, se van a utilizar los datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+Se presenta un proyecto de PIPELINE de ML. Donde se intenta representar el ciclo de vida de un proyecto de Machine Learning en un entorno productivo.
+Para ello se optó por utilizar datos de la competencia de kaggle "House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
 Competition Description
 ![housesbanner](https://user-images.githubusercontent.com/2281529/134782394-25da2570-550b-4b7a-85fe-219630455631.png)
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
