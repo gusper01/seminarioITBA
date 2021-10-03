@@ -84,7 +84,7 @@ Se genera persistencia grabando un archivo parquet
 A partir de archivo parquet se realizan consultas PYSPARK SQL y se genera un filtrado de datos en base a una condición.
 Se exporta esta salida a un Pandas Dataframe
 ```
-#### Recuperación de Datos 🔩
+### Recuperación de Datos 🔩
 ```
 Se visualiza extracción de datos de archivo Parquet
 En esta etapa en un proyecto productivo se deberia implementar un dashboarb. En el entorno de COLAB si bien se instalo y 
@@ -98,7 +98,7 @@ configuro dash y jupyter-dash no se pudo lograr activar el servidor de dashboard
 * [Dash_Plotly](https://dash.plotly.com/layout) Dashboard 
 
 ## Autor ✒️
-**Gustavo Pereyra** - [gusper01](https://github.com/gusper01)😊
+**Gustavo Pereyra** 2021 - [gusper01](https://github.com/gusper01)😊
 
 
 
