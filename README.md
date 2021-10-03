@@ -96,10 +96,10 @@ configuro dash y jupyter-dash no se pudo lograr activar el servidor de dashboard
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Referencias 📌
-[PySpark](http://spark.apache.org/docs/latest/api/python/)
-[Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) Competencia House Prices - Advanced Regression Techniques
-[Google_Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
-[Dash_Plotly](https://dash.plotly.com/layout) Dashboard 
+* [PySpark](http://spark.apache.org/docs/latest/api/python/)
+* [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) Competencia House Prices - Advanced Regression Techniques
+* [Google_Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
+* [Dash_Plotly](https://dash.plotly.com/layout) Dashboard 
 
 ## Autor ✒️
 **Gustavo Pereyra** - [gusper01](https://github.com/gusper01)😊
