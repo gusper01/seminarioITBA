@@ -7,14 +7,14 @@ Ask a home buyer to describe their dream house, and they probably won't begin wi
 
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
-## Activades
+## Actividades
 Para la reproducción del PIPELINE se generaron dos COLAB, si bien no se pueden reproducir los procesos de automatización, scheduling, etc. de un PIPELINE productivo. se trató de seguir un ciclo de vida de ML orquestado similar a un ambiente productivo  
 El primer COLAB abarca las Etapas de Ingesta/Visualización/EDA/Modelado ML 
 colab https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_EDA.ipynb
 Y el segundo COLAB las Etapas de Persistencia/Recuperación de Datos
 colab https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_PIPELINE.ipynb
 
-Clonado del Repositorio
+Repositorio
 git clone https://github.com/gusper01/seminarioITBA.git
 
 ## Etapas del PipeLine 🚀
@@ -36,19 +36,17 @@ Se utilizará solo el algoritmo XGBoost por limitaciones de tiempo. Se generá e
 
 
 ### Persistencia 🔩
-#### Configuración SPARK en COLAB
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-_Explica que verifican estas pruebas y por qué_
+Se configura SPARK en Colab
+Se realizan Visualizaciones y 
 #### Creación Dataframe Spark con datos de predicción 
 Se genera Dataset Spark y se realizan visualizaciones de datos y schema
 Se realizan "casteos" de columnas de Dataset Spark
 #### Persistencia
 Se genera persistencia grabando un archivo parquet
 A partir de archivo parquet se realizan consultas PYSPARK SQL y se genera un filtrado de datos en base a un condicion se exporta esta salida a un Pandas Dataframe
-#### Visualización
-
-####```
-Da un ejemplo
+#### Recuperación de Datos
+```
+Se visualiza extraccion de datos de archivo Parquet
 ```
 
 _Dí cómo será ese paso_
