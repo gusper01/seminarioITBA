@@ -10,9 +10,9 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 ## Actividades
 Para la reproducción del PIPELINE se generaron dos COLAB, si bien no se pueden reproducir los procesos de automatización, scheduling, etc. de un PIPELINE productivo. se trató de seguir un ciclo de vida de ML orquestado similar a un ambiente productivo  
 El primer COLAB abarca las Etapas de Ingesta/Visualización/EDA/Modelado ML 
-colab https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_EDA.ipynb
+[colab EDA](https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_EDA.ipynb)
 Y el segundo COLAB las Etapas de Persistencia/Recuperación de Datos
-colab https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_PIPELINE.ipynb
+[colab Persistencia](https://github.com/gusper01/seminarioITBA/blob/gh-pages/seminarioITBA_PIPELINE.ipynb)
 
 Repositorio
 git clone https://github.com/gusper01/seminarioITBA.git
@@ -52,7 +52,7 @@ e Y son independientes, entonces conocer X no da información sobre Y y vicevers
 En el otro extremo, si X e Y son idénticas entonces toda información proporcionada por X es compartida por Y: saber X determina
 el valor de Y y viceversa. Por ello, la información mutua media es igual a la información contenida en Y (o X) por sí sola, 
 también llamada la entropía de Y (o X: claramente si X e Y son idénticas tienen idéntica entropía 
-https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua
+[Mutual Information](https://es.m.wikipedia.org/wiki/Informaci%C3%B3n_mutua)
 ```
 ### Hyperparameter Tuning  🛠️
 ```
@@ -68,7 +68,8 @@ veces es conveniente realizarlo utilizando servicios en la nube.
 ```
 Se genera modelo y predicciones 
 Se utilizará solo el algoritmo XGBoost por limitaciones de tiempo. Se generá el archivo con la predicción para hacer 
-el submit a Kaggle y un archivo de de salida para realizar persistencia "datatotal01102021.csv" y continuar con el PIPELINE
+el submit a Kaggle y un archivo de de salida para realizar persistencia 
+[datatotal01102021v1.csv](https://github.com/gusper01/seminarioITBA/blob/gh-pages/data/datatotal01102021v1.csv) y continuar con el PIPELINE
 de ML (en otro COLAB)
 ```
 ### Persistencia 🔩
@@ -78,8 +79,8 @@ Creación Dataframe Spark con datos de predicción
 Se genera Dataset Spark y se realizan visualizaciones de datos y schema
 Se realizan "casteos" de columnas de Dataset Spark
 Se genera persistencia grabando un archivo parquet
-A partir de archivo parquet se realizan consultas PYSPARK SQL y se genera un filtrado de datos en base a un condicion se exporta 
-esta salida a un Pandas Dataframe
+A partir de archivo parquet se realizan consultas PYSPARK SQL y se genera un filtrado de datos en base a una condición.
+Se exporta esta salida a un Pandas Dataframe
 ```
 #### Recuperación de Datos 🔩
 ```
